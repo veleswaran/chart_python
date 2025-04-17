@@ -125,7 +125,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 import os
 
-MEDIA_URL = '/images/'
+MEDIA_URL = '/video/'
 MEDIA_ROOT = BASE_DIR/"static"
 
 STATICFILES_DIRS = [BASE_DIR/'static']
@@ -137,7 +137,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,'asset/admin')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
+# CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
 
 CORS_ALLOW_ALL_ORIGINS  = True
 
